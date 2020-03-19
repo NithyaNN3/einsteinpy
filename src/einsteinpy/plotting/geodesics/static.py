@@ -29,6 +29,7 @@ class StaticGeodesicPlotter:
             Color which is used to denote the attractor. Defaults to #ffcc00.
 
         """
+        print("Hello World")
         self.ax = ax
         self.use_3d = use_3d
         if not self.ax:
